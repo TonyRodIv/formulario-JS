@@ -3,9 +3,9 @@ function validate(){
     let pass = document.getElementById('password').value
     let passColor = document.getElementById('password')
     if(regex.test(pass)){
-        alert('boa!')
+        alert('Seu login foi concluído com sucesso!! 😉👌🏽')
     }else{
-        alert('erro!')
         passColor.style.border = "red solid 3px"
+        alert('ERRO!! - Sua senha não atente os requisitos minímos')
     }
 }
