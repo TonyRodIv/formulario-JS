@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #111827;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 70rem;
+    display: flex;
+    align-items: end;
+    margin: 4.5rem 0rem 7rem 0rem;
+}
+
+header h1 {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    color: #fff;
+}
+
+.elipse {
+    width: 1rem;
+    height: 1rem;
+    background-color: #0073B0;
+    border-radius: 6.25rem;
+    margin-bottom: 0.85rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.container {
+    width: 30rem;
+    height: 29.75rem;
+    background: #F9F9FB;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+}
+
+.container .main {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem;
+    align-items: center;
+}
+
+.container h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 2.9375rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.container .otherOp {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+button p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+#loginBtn:hover,#github:hover{
+    background-color: #7081c9;
+}
+.buttons form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+form div{
+    width: 21.8rem;
+}
+
+#email,
+#password {
+    width: 100%;
+    height: 3.2rem;
+    border: none;
+    background: rgba(113, 128, 185, 0.32);
+    border-radius: 0.25rem;
+    padding-left: 3.25rem;
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: 15px;
+}
+#email{
+    background-image: url(./img/EnvelopeSimple.svg);
+}
+#password{
+    background-image: url(./img/Lock.svg);
+}
+
+#loginBtn {
+    width: 25rem;
+    height: 3rem;
+    background: #7180B9;
+    border-radius: 0.25rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+    cursor: pointer;
+}
+
+hr {
+    width: 7.75rem;
+    margin-bottom: 2rem;
+}
+.subBtn{
+    display: flex;
+    align-items: center;
+    gap: 1.8125rem;
+}
+
+#github {
+    width: 244px;
+    height: 48px;
+    background: #7180B9;
+    border-radius: 4px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    cursor: pointer;
+}
