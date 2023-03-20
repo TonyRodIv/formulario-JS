@@ -23,12 +23,14 @@
                     <div class="buttons">
                         <form id="form">
                             <div>
-                                <input type="email" name="email" id="email" class="email" placeholder="E-mail" required>
+                                <input type="email" name="email" id="email" class="email" placeholder="E-mail">
+                                <p id="errorEmail" style="color: red; display: none;">Email Inválido</p>
                             </div>
                             <div>
-                                <input type="password" name="password" class="password" id="password" placeholder="*******" required>
+                                <input type="password" name="password" class="password" id="password" placeholder="*******">
+                                <p id="errorPass" style="color: red; display: none;">Senha Inválida</p>
                             </div>
-                            <input type="submit" onclick="validate()" value="Enviar" id="loginBtn">
+                            <input type="submit" value="Enviar" id="loginBtn">
                         </form>
                     </div>
                     <hr>
