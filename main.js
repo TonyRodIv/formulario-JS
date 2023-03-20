@@ -42,8 +42,5 @@ document.getElementById('form').addEventListener('submit',
             errorEmail.style.display = 'block';
         }
         }
-        
-
-
     }
 )
